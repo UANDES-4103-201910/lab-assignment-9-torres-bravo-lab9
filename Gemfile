@@ -38,6 +38,9 @@ gem 'devise'
 #gem rubyracen
 gem 'therubyracer', '~> 0.12.2'
 
+#bootstrap
+gem 'bootstrap-sass'
+
 #gem omniauth
 gem 'omniauth', '~> 1.9'
 

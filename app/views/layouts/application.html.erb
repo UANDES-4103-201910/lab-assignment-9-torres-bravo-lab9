@@ -6,10 +6,25 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     <div class="menu">
+        <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#">TicketApp</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/sign_in" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="sessions/new"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
   </head>
+ 
 
   <body>
   	<p id="notice"><%= notice %></p>
-    <%= yield %>
+    <%= yield%>
   </body>
 </html>
